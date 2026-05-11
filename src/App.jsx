@@ -61,7 +61,7 @@ function App() {
     <>
       <header className="site-header" id="top">
         <div className="container nav-wrap">
-          <p className="brand">Aria Vale</p>
+          <p className="brand">Professional Designer</p>
           <nav aria-label="Primary">
             <ul className="nav-list">
               <li>
