@@ -4,7 +4,7 @@ A React portfolio website for a creative professional persona (photographer/desi
 
 ## Persona and Target User
 
-- Persona: Aria Vale, a creative professional combining photography and visual design.
+- Persona: a creative professional combining photography and visual design.
 - Target users: recruiters, creative directors, and prospective clients.
 
 ## Sections Included

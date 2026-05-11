@@ -1,16 +1,16 @@
 const projects = [
   {
-    title: "Street Light Series",
+    title: "Street Candid Series",
     type: "Photo Essay",
     description:
-      "A 3-week documentary project capturing evening routines in three neighborhoods.",
+      "A multi-week documentary project capturing evening routines of real people in three neighborhoods.",
     action: "View case preview",
   },
   {
-    title: "Bloom Studio Identity",
+    title: "Flower Studio Identity",
     type: "Brand Design",
     description:
-      "Visual identity system for a floral startup, including packaging and social templates.",
+      "Visual identity system for a local flower startup, including packaging and social media templating.",
     action: "See design system",
   },
   {
@@ -23,10 +23,10 @@ const projects = [
 ];
 
 const skills = [
-  { name: "Editorial Photography", level: 92 },
-  { name: "Brand Systems", level: 84 },
-  { name: "Figma Prototyping", level: 78 },
-  { name: "Creative Direction", level: 88 },
+  { name: "Editorial Photography", level: 97 },
+  { name: "Brand Systems", level: 89 },
+  { name: "Figma Prototyping", level: 82 },
+  { name: "Creative Direction", level: 94 },
 ];
 
 const posts = [
@@ -47,6 +47,12 @@ const posts = [
     summary:
       "Each day I collect references and annotate why a layout works to sharpen design instincts.",
     date: "April 18, 2026",
+  },
+  {
+    title: "Success is in the Details: My Retouching Process",
+    summary:
+      "Clients often ask me to retouch their photos, today I share my process.",
+    date: "April 3, 2026",
   },
 ];
 
@@ -81,18 +87,18 @@ function App() {
       <main id="main-content">
         <section className="hero container" aria-labelledby="hero-title">
           <div className="hero-copy">
-            <p className="eyebrow">Portfolio for a Creative Professional</p>
+            <p className="eyebrow">A Portfolio for a Creative Professional</p>
             <h1 id="hero-title">
-              I design visual stories that help brands feel human, memorable, and clear.
+              I'll bring your brand to life with editorial photography and visual design that resonates with people.
             </h1>
             <p className="intro">
-              I am Aria, a photographer and visual designer blending editorial craft with
-              human-centered interface thinking. I build brand moments people can feel in one
-              glance.
+              I am a photographer and visual designer, 
+              I build moments that connect brands with their audiences. 
+              I have 6 years of experience working with clients across retail, arts, and startups to create polished visual systems that don't lose personality.
             </p>
             <div className="hero-actions">
               <a className="btn btn-primary" href="#work">
-                Explore selected work
+                Explore my work
               </a>
               <a className="btn btn-ghost" href="#contact">
                 Start a project
@@ -113,7 +119,7 @@ function App() {
           <h2 id="about-title">About Me</h2>
           <div className="about-grid">
             <article>
-              <h3>Who is this person?</h3>
+              <h3>Who am I?</h3>
               <p>
                 I am a creative professional with 6 years of client and editorial practice,
                 focusing on identity-led photography and cross-channel visual direction.
@@ -204,8 +210,8 @@ function App() {
             Low-friction contact: share your goals and timeline, and I will reply within 24 hours.
           </p>
           <div className="contact-box">
-            <a className="btn btn-primary" href="mailto:hello@ariavale.studio">
-              Email: hello@ariavale.studio
+            <a className="btn btn-primary" href="mailto:hello@visualdesign.photography">
+              Email: hello@visualdesign.photography
             </a>
             <a className="btn btn-ghost" href="https://www.linkedin.com" target="_blank" rel="noreferrer">
               Connect on LinkedIn
@@ -215,7 +221,7 @@ function App() {
       </main>
 
       <footer className="site-footer container">
-        <p>Aria Vale • Visual Designer + Photographer • Based in Toronto</p>
+        <p>Visual Designer + Photographer • Based in the United States</p>
         <a href="#top" className="text-link">
           Back to top
         </a>
